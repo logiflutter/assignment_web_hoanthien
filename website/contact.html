@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link rel="stylesheet" href="./contact_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".toggleButton").click(function(){
+                $(".navigation ul").toggle();
+                $(".sign_in").toggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navigation">
+            <h2>Traveling!</h2>
+            <ul class="row-center">
+                <li><a href="./home_page.html">Trang Chủ</a></li>
+                <li><a href="./news.html">Tin Tức</a></li>
+                <li><a style="color:red" href="./contact.html">Liên Hệ</a></li>
+            </ul>
+            <button class="sign_in">Đăng Nhập</button>
+        </div>
+        <button class="toggleButton"><img src="./assets/icons/filter.svg" alt=""></button>
+    </div>
+
+    <div class="center">
+        <div class="infor-left">
+            <h1>Liên Hệ</h1>
+            <p>Nếu bạn có bất kỳ yêu cầu hoặc thắc mắc nào, đừng ngần ngại, hãy liên hệ với chúng tôi.</p>
+            <h2>Văn Phòng Chính</h2>
+            <div class="row-item-infor">
+                <div class="icon"><img src="./assets/icons/location.png" alt=""></div>
+                <p>32 Đồng Me, Mễ Trì, Hà Nội</p>
+            </div>
+            <div class="row-item-infor">
+                <div class="icon"><img src="./assets/icons/phone-call.png" alt=""></div>
+                <p>099393938933</p>
+            </div>
+            <div class="row-item-infor">
+                <div class="icon"><img src="./assets/icons/email.png" alt=""></div>
+                <p>abcd@gmail.com</p>
+            </div>
+    
+            <h2>Văn Phòng 2</h2>
+            <div class="row-item-infor">
+                <div class="icon"><img src="./assets/icons/location.png" alt=""></div>
+                <p>255 Hoàng Mai, Hà Nội</p>
+            </div>
+            <div class="row-item-infor">
+                <div class="icon"><img src="./assets/icons/phone-call.png" alt=""></div>
+                <p>0939834983498</p>
+            </div>
+            <div class="row-item-infor">
+                <div class="icon"><img src="./assets/icons/email.png" alt=""></div>
+                <p>ddef@gmail.com</p>
+            </div>
+        </div>
+    
+        <form class="form-right">
+            <div class="title">Form Liên Hệ</div>
+            <div class="row-textfield">
+                <h2>Họ và Tên</h2>
+                <input type="text" placeholder="Nhập Họ và Tên" required>
+            </div>
+            <div class="row-textfield">
+                <h2>Địa chỉ</h2>
+                <input type="text" placeholder="Nhập địa chỉ liên hệ" required>
+            </div>
+            <div class="row-textfield">
+                <h2>Số điện thoại</h2>
+                <input type="text" placeholder="Nhập số điện thoại liên hệ" required>
+            </div>
+            <div class="row-textfield">
+                <h2>Email</h2>
+                <input type="text" placeholder="abc@gmail.com" required>
+            </div>
+            <div class="row-textfield">
+                <h2>Nội dung liên hệ</h2>
+                <input type="text" placeholder="" required>
+            </div>
+            <input class="submit" type="submit" value="Xác Nhận">
+        </form>
+    </div>
+    
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.863807268182!2d105.74239088099893!3d21.038134737490083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455e940879933%3A0xcf10b34e9f1a03df!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1712386943004!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <div class="menu-fotter">
+        <div class="col-menu-fotter">
+            <h2>Traveling!</h2>
+            <p>Traveling luôn mong mang đến những dịch vụ chất lượng nhất, nổi bật nhất tới mọi người!</p>
+        </div>
+        <div class="col-menu-fotter">
+            <div class="til">
+                Traveling Go
+            </div>
+            <div class="menu">Về Chúng Tôi</div>
+            <div class="menu">Tại Sao Nên Chọn Chúng Tôi</div>
+            <div class="menu">Tin Tức</div>
+            <div class="menu">Tuyển Dụng</div>
+            <div class="menu">Liên Hệ</div>
+        </div>
+        <div class="col-menu-fotter">
+            <div class="til">
+                Tài Nguyên
+            </div>
+            <div class="menu">Câu Hỏi Thường Gặp</div>
+            <div class="menu">Đại Lý Vé Máy Bay</div>
+            <div class="menu">Khách Sạn Cao Cấp</div>
+            <div class="menu">Traveling</div>
+            <div class="menu">Go Now</div>
+        </div>
+        <div class="col-menu-fotter">
+            <div class="til">
+                Liên Hệ
+            </div>
+            <div class="menu">Trụ Sở Chính</div>
+            <div class="menu">Địa Chỉ: Thái Nguyên</div>
+            <div class="menu">+849373829343</div>
+            <div class="menu">abcde@gmail.com</div>
+        </div>
+    </div>
+
+
+    <div class="fotter">
+        <div class="col-lef-fot">
+            <h2>Traveling!</h2>
+            <ul class="row-bottom">
+                <li><a href="">Bảo mật</a></li>
+                <li><a href="">Câu hỏi thường gặp</a></li>
+                <li><a href="">Liên Hệ</a></li>
+            </ul>
+        </div>
+        <div class="row-right-fot">
+            <h2>Hoàng Nhật Long - PH55234</h2>
+        </div>
+    </div>
+</body>
+
+</html>

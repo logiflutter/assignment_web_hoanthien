@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="./home_page_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".toggleButton").click(function(){
+                $(".navigation ul").toggle();
+                $(".sign_in").toggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="toggle">
+            <div class="navigation">
+                <h2>Traveling!</h2>
+                <ul class="row-center">
+                    <li><a style="color:red" href="./home_page.html">Trang Chủ</a></li>
+                    <li><a href="./news.html">Tin Tức</a></li>
+                    <li><a href="./contact.html">Liên Hệ</a></li>
+                </ul>
+                <button class="sign_in">Đăng Nhập</button>
+            </div>
+            <button class="toggleButton"><img src="./assets/icons/filter.svg" alt=""></button>
+        </div>
+        <div class="row-header">
+            <div class="left-header">
+                <h1>Bắt đầu chuyến đi của bạn bằng một click, khám phá ngay!</h1>
+                <h4>Lập kế hoạch và đặt chuyến đi tuyệt vời của bạn với các chuyên gia, mẹo du lịch và thông tin điểm
+                    đến từ chúng tôi.</h4>
+                <div class="dow-left-header">
+                    <div class="dowload">
+                        <div class="icon-download"><img src="./assets/icons/google-play.png" alt=""></div>
+                        <div class="colum-download">
+                            <h6>GET IN ON</h6>
+                            <h5>Google Play</h5>
+                        </div>
+                    </div>
+                    <div class="dowload">
+                        <div class="icon-download"><img src="./assets/icons/apple-store.png" alt=""></div>
+                        <div class="colum-download">
+                            <h6>Downlod on the </h6>
+                            <h5>App Store</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-header">
+                <div class="circle circle1"></div>
+                <div class="circle-red"></div>
+                <div class="circle-green"></div>
+                <div class="circle circle2"></div>
+                <div class="circle circle3"></div>
+                <div class="image-right-header"><img src="./assets/images/image-right-header.png" alt=""></div>
+                <a class="link-big" href="">
+                    <div class="card">
+                        <div class="image"><img src="./assets/images/sapa.webp" alt=""></div>
+                        <h3>Bà Nà Hill</h3>
+                        <h4>Đà Nẵng</h4>
+                    </div>
+                </a>
+                <a class="link-min" href="">
+                    <div class="item-right-header2">
+                        <div class="image"><img src="./assets/images/hoi_an.webp" alt=""></div>
+                        <h3>Hội An</h3>
+                        <h4>Quảng Nam</h4>
+                    </div>
+                </a>
+                <div class="fight">
+                    <div class="icon"><img src="./assets/icons/flight.png" alt=""></div>
+                    <p>Hà Nội -> Đà Nẵng</p>
+                </div>
+                <div class="ellip"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trend">
+        <div class="wrap-trend">
+            <div class="title-andsubtitle">
+                <h2>Điểm đến phổ biến</h2>
+                <h4>Địa điểm thú vị tại Việt Nam</h4>
+            </div>
+            <div class="list-card">
+                <a class="link-card card-1" href="">
+                    <div class="card-item">
+                        <div class="image"><img src="./assets/images/nha_trang.webp" alt=""></div>
+                        <h3>VinWonders</h3>
+                        <h4>Nha Trang</h4>
+                    </div>
+                </a>
+                <a class="link-card card-2" href="">
+                    <div class="card-item">
+                        <div class="image"><img src="./assets/images/phu_quoc.webp" alt=""></div>
+                        <h3>VinWonders</h3>
+                        <h4>Phú Quốc</h4>
+                    </div>
+                </a>
+                <a class="link-card card-3" href="">
+                    <div class="card-item">
+                        <div class="image"><img src="./assets/images/sapa.webp" alt=""></div>
+                        <h3>Phansipang</h3>
+                        <h4>Sapa</h4>
+                    </div>
+                </a>
+                <a class="link-card card-4" href="">
+                    <div class="card-item">
+                        <div class="image"><img src="./assets/images/da_nang.webp" alt=""></div>
+                        <h3>Bà Nà Hill</h3>
+                        <h4>Đà Nẵng</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-fotter">
+        <div class="col-menu-fotter">
+            <h2>Traveling!</h2>
+            <p>Traveling luôn mong mang đến những dịch vụ chất lượng nhất, nổi bật nhất tới mọi người!</p>
+        </div>
+        <div class="col-menu-fotter">
+            <div class="til">
+                Traveling Go
+            </div>
+            <div class="menu">Về Chúng Tôi</div>
+            <div class="menu">Tại Sao Nên Chọn Chúng Tôi</div>
+            <div class="menu">Tin Tức</div>
+            <div class="menu">Tuyển Dụng</div>
+            <div class="menu">Liên Hệ</div>
+        </div>
+        <div class="col-menu-fotter">
+            <div class="til">
+                Tài Nguyên
+            </div>
+            <div class="menu">Câu Hỏi Thường Gặp</div>
+            <div class="menu">Đại Lý Vé Máy Bay</div>
+            <div class="menu">Khách Sạn Cao Cấp</div>
+            <div class="menu">Traveling</div>
+            <div class="menu">Go Now</div>
+        </div>
+        <div class="col-menu-fotter">
+            <div class="til">
+                Liên Hệ
+            </div>
+            <div class="menu">Trụ Sở Chính</div>
+            <div class="menu">Địa Chỉ: Thái Nguyên</div>
+            <div class="menu">+849373829343</div>
+            <div class="menu">abcde@gmail.com</div>
+        </div>
+    </div>
+
+    <div class="fotter">
+        <div class="col-lef-fot">
+            <h2>Traveling!</h2>
+            <ul class="row-bottom">
+                <li><a href="">Bảo mật</a></li>
+                <li><a href="">Câu hỏi thường gặp</a></li>
+                <li><a href="">Liên Hệ</a></li>
+            </ul>
+        </div>
+        <div class="row-right-fot">
+            <h2>Hoàng Nhật Long - PH55234</h2>
+        </div>
+    </div>
+</body>
+
+</html>
